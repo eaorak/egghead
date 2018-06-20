@@ -1,0 +1,32 @@
+{
+  "name": "egghead",
+  "version": "1.0.6",
+  "main": "src/app.js",
+  "license": "MIT",
+  "author": {
+    "name": "Ender Aydin Orak"
+  },
+  "scripts": {
+    "egghead": "node src/app.js"
+  },
+  "bin": {
+    "egghead": "src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eaorak/egghead.git"
+  },
+  "keywords": [
+    "egghead",
+    "egghead.io",
+    "download",
+    "video"
+  ],
+  "dependencies": {
+    "command-line-args": "5.0.2",
+    "command-line-usage": "5.0.5",
+    "download": "7.0.0",
+    "node-env-file": "0.1.8",
+    "puppeteer": "^1.4.0"
+  }
+}
